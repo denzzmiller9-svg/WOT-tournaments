@@ -15,8 +15,6 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FRONTEND_DIST = PROJECT_ROOT / "frontend" / "dist"
 
-# TODO: !!! разобраться с авторизацией пользователя
-# почему не созраняется токен доступа в таблице users???
 
 settings = get_settings()
 
